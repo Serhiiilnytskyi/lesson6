@@ -7,13 +7,18 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.cfg.Environment;
 import org.hibernate.service.ServiceRegistry;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 
 import java.util.Properties;
 
+@org.springframework.context.annotation.Configuration
+@ComponentScan("com.lits")
 public class HibernateUtils {
-    private static SessionFactory sessionFactory;
+    private SessionFactory sessionFactory;
 
-    public static SessionFactory getSessionFactory() {
+    @Bean
+    public  SessionFactory getSessionFactory() {
         if (sessionFactory == null) {
             try {
                 Configuration configuration = new Configuration();
@@ -25,7 +30,6 @@ public class HibernateUtils {
                 settings.put(Environment.PASS, "F,hfrflf,hf314");
                 settings.put(Environment.DIALECT, "org.hibernate.dialect.MySQL5Dialect");
                 settings.put(Environment.SHOW_SQL, "true");
-                // settings.put(Environment.CURRENT_SESSION_CONTEXT_CLASS, "thread");
                 settings.put(Environment.HBM2DDL_AUTO, "create-drop");
                 configuration.setProperties(settings);
                 configuration.addAnnotatedClass(Student.class);

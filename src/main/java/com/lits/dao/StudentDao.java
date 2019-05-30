@@ -3,16 +3,23 @@ package com.lits.dao;
 import com.lits.utils.HibernateUtils;
 import com.lits.entity.Student;
 import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public class StudentDao {
+
+    @Autowired
+    SessionFactory sessionFactory;
 
 
     public void saveStudent(Student student) {
         Transaction transaction = null;
-        try (Session session = HibernateUtils.getSessionFactory().openSession()) {
+        try (Session session = sessionFactory.openSession()) {
 
             transaction = session.beginTransaction();
 
@@ -29,7 +36,7 @@ public class StudentDao {
 
     public void updateStudent(Student student) {
         Transaction transaction = null;
-        try (Session session = HibernateUtils.getSessionFactory().openSession()) {
+        try (Session session = sessionFactory.openSession()) {
 
             transaction = session.beginTransaction();
 
@@ -46,7 +53,7 @@ public class StudentDao {
 
     public void deleteStudent(Integer id) {
         Transaction transaction = null;
-        try (Session session = HibernateUtils.getSessionFactory().openSession()) {
+        try (Session session = sessionFactory.openSession()) {
 
             transaction = session.beginTransaction();
             Student student = session.get(Student.class, id);
@@ -62,7 +69,7 @@ public class StudentDao {
     }
 
     public List<Student> getStudents() {
-        try (Session session = HibernateUtils.getSessionFactory().openSession()) {
+        try (Session session = sessionFactory.openSession()) {
             return session.createQuery("FROM Student", Student.class).list();
         }
     }

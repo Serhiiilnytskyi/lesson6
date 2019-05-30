@@ -18,7 +18,7 @@ public class Student {
 
     private String email;
 
-    @OneToMany(mappedBy = "student", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "student", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Book> books;
 
     public Student() {
@@ -29,6 +29,8 @@ public class Student {
         this.secondname = secondname;
         this.email = email;
     }
+
+
 
     public List<Book> getBooks() {
         return books;
@@ -68,5 +70,16 @@ public class Student {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", firstname='" + firstname + '\'' +
+                ", secondname='" + secondname + '\'' +
+                ", email='" + email + '\'' +
+                ", books=" + books +
+                '}';
     }
 }

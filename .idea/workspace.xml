@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ff7bebd-c14b-4847-b66f-49ae4bb501c1" name="Default Changelist" comment="" />
+    <list default="true" id="2ff7bebd-c14b-4847-b66f-49ae4bb501c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lits/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lits/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lits/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lits/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lits/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lits/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lits/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lits/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lits/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lits/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lits/utils/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lits/utils/HibernateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lits/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lits/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lits/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lits/entity/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lits/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lits/entity/Student.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,47 +23,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+            <state relative-caret-position="478">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/entity/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+            <state relative-caret-position="189">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-                <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#828#829#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#990#991#0" expanded="true" />
-                <element signature="e#1042#1043#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
-                <element signature="e#1118#1119#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
-                <element signature="e#1188#1189#0" expanded="true" />
-                <element signature="e#1222#1223#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/dao/BookDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="296">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,20 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/entity/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-              <folding>
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="777">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -93,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/utils/HibernateUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+            <state relative-caret-position="567">
+              <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,21 +84,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/dao/StudentDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="133">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="231">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,21 +115,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Entity/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/HibernateUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lits/Dao/StudentDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lits/dao/StudentDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lits/utils/HibernateUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lits/dao/BookDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lits/entity/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lits/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lits/entity/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lits/entity/Student.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lits/utils/HibernateUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lits/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lits/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lits/Main.java" />
       </list>
     </option>
   </component>
@@ -161,17 +143,19 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="-2" />
     <option name="width" value="1024" />
     <option name="height" value="770" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,10 +220,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -292,45 +276,48 @@
       <option name="presentableId" value="Default" />
       <updated>1559059548715</updated>
       <workItem from="1559059553657" duration="5961000" />
+      <workItem from="1559230284600" duration="2158000" />
+      <workItem from="1559233807702" duration="573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5961000" />
+    <option name="totallyTimeSpent" value="8692000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <frame x="0" y="-30" width="1366" height="798" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962063" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.36867863" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32658958" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32463768" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.21603929" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289855" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962063" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,45 +328,56 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lits.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/entity/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        <state relative-caret-position="777">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lits.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="478">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/utils/HibernateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/dao/StudentDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="133">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/dao/BookDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/utils/HibernateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+        <state relative-caret-position="296">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -388,59 +386,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state relative-caret-position="231">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/entity/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-          <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
           </folding>
         </state>
       </provider>
